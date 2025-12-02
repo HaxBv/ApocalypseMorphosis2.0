@@ -31,6 +31,7 @@ public class EnemySpawner : MonoBehaviour
                 timers[i] = 0f;
                 SpawnEnemy(enemyTypes[i]);
 
+
             }
         }
     }
@@ -55,7 +56,19 @@ public class EnemySpawner : MonoBehaviour
     public void OnDrawGizmos()
     {
         Color gizmoColor = Color.green;
-        Vector3 size = new Vector3( spawnWidth, spawnHeight, 0);
+        
+
+
+        Vector3 p1 = transform .position + new Vector3(-spawnWidth, -spawnHeight, 0);
+        Vector3 p2 = transform.position + new Vector3(spawnWidth, -spawnHeight, 0);
+        Vector3 p3 = transform.position + new Vector3(spawnWidth, spawnHeight, 0);
+        Vector3 p4 = transform.position + new Vector3(-spawnWidth, spawnHeight, 0);
+
+        Gizmos.DrawLine(p1, p2); 
+        Gizmos.DrawLine(p2, p3);
+        Gizmos.DrawLine(p3, p4);
+        Gizmos.DrawLine(p4, p1);
+            
     }
     Vector2 GetSpawnPosition()
     {

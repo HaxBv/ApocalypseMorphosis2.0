@@ -1668,8 +1668,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 2019307326}
-  spawnWidth: 12
-  spawnHeight: 10
+  spawnWidth: 30
+  spawnHeight: 17
   enemyTypes:
   - {fileID: 11400000, guid: 76c13a0bda6428a4e8b9e1e5861ccff5, type: 2}
   - {fileID: 11400000, guid: 44750a3c31c7a304c92c7e898b2b04a0, type: 2}
@@ -1682,7 +1682,7 @@ Transform:
   m_GameObject: {fileID: 744847342}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.6372547, y: -1.2163063, z: 0.022312801}
+  m_LocalPosition: {x: -0.32, y: 0.1, z: 0.022312801}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3415,120 +3415,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2142524430}
   m_CullTransparentMesh: 1
---- !u!1001 &876217495137899076
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2837646923148947172, guid: ee1db7c0065bbe84794633560e4ea94b, type: 3}
-      propertyPath: m_Name
-      value: InkMonster
-      objectReference: {fileID: 0}
-    - target: {fileID: 6899487059379335213, guid: ee1db7c0065bbe84794633560e4ea94b, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 12.924833
-      objectReference: {fileID: 0}
-    - target: {fileID: 6899487059379335213, guid: ee1db7c0065bbe84794633560e4ea94b, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.9661291
-      objectReference: {fileID: 0}
-    - target: {fileID: 6899487059379335213, guid: ee1db7c0065bbe84794633560e4ea94b, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6899487059379335213, guid: ee1db7c0065bbe84794633560e4ea94b, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6899487059379335213, guid: ee1db7c0065bbe84794633560e4ea94b, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6899487059379335213, guid: ee1db7c0065bbe84794633560e4ea94b, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6899487059379335213, guid: ee1db7c0065bbe84794633560e4ea94b, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6899487059379335213, guid: ee1db7c0065bbe84794633560e4ea94b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6899487059379335213, guid: ee1db7c0065bbe84794633560e4ea94b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6899487059379335213, guid: ee1db7c0065bbe84794633560e4ea94b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: ee1db7c0065bbe84794633560e4ea94b, type: 3}
---- !u!1001 &6402125172652124249
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 647626945653699296, guid: 6f187c0b97d06df45bab94c021cd1f10, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 6.9262505
-      objectReference: {fileID: 0}
-    - target: {fileID: 647626945653699296, guid: 6f187c0b97d06df45bab94c021cd1f10, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -2.9545321
-      objectReference: {fileID: 0}
-    - target: {fileID: 647626945653699296, guid: 6f187c0b97d06df45bab94c021cd1f10, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 647626945653699296, guid: 6f187c0b97d06df45bab94c021cd1f10, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 647626945653699296, guid: 6f187c0b97d06df45bab94c021cd1f10, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 647626945653699296, guid: 6f187c0b97d06df45bab94c021cd1f10, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 647626945653699296, guid: 6f187c0b97d06df45bab94c021cd1f10, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 647626945653699296, guid: 6f187c0b97d06df45bab94c021cd1f10, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 647626945653699296, guid: 6f187c0b97d06df45bab94c021cd1f10, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 647626945653699296, guid: 6f187c0b97d06df45bab94c021cd1f10, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6183200804236481229, guid: 6f187c0b97d06df45bab94c021cd1f10, type: 3}
-      propertyPath: m_Name
-      value: InkFlyingMonster
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 6f187c0b97d06df45bab94c021cd1f10, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -3542,6 +3428,4 @@ SceneRoots:
   - {fileID: 1389407630}
   - {fileID: 1944712945}
   - {fileID: 64860103}
-  - {fileID: 6402125172652124249}
-  - {fileID: 876217495137899076}
   - {fileID: 744847344}
