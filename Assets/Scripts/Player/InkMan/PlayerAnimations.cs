@@ -53,25 +53,24 @@ public class PlayerAnimations : MonoBehaviour
                 print("AttackForm0");
                 break;
             case 1:
-                Controller.SetTrigger("OnAttack");
                 print("AttackForm1");
                 break;
             case 2:
-                print("Whadya want?");
+                print("AttackForm2");
                 break;
             case 3:
                 Controller.SetTrigger("OnAttack");
-                print("AttackForm1");
+                print("AttackForm3");
                 break;
             case 4:
                 Controller.SetTrigger("OnAttack");
-                print("AttackForm3");
+                print("AttackForm4");
                 break;
             case 5:
-                print("Incorrect intelligence level.");
+                print("AttackForm5");
                 break;
             case 6:
-                print("Ulg, glib, Pblblblblb");
+                print("AttackForm6");
                 break;
         }
     }
@@ -124,7 +123,7 @@ public class PlayerAnimations : MonoBehaviour
                 print("AttackForm1");
                 break;
             case 2:
-                print("Whadya want?");
+                print("AttackForm2");
                 break;
             case 3:
                 Controller.SetTrigger("OnSkill2");
@@ -135,10 +134,10 @@ public class PlayerAnimations : MonoBehaviour
                 print("AttackForm4");
                 break;
             case 5:
-                print("Incorrect intelligence level.");
+                print("AttackForm5");
                 break;
             case 6:
-                print("Ulg, glib, Pblblblblb");
+                print("AttackForm6");
                 break;
         }
     }
@@ -168,10 +167,10 @@ public class PlayerAnimations : MonoBehaviour
                 print("AttackForm4");
                 break;
             case 5:
-                print("Incorrect intelligence level.");
+                print("AttackForm5");
                 break;
             case 6:
-                print("Ulg, glib, Pblblblblb");
+                print("AttackForm6");
                 break;
         }
     }

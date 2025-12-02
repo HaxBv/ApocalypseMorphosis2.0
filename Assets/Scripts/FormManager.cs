@@ -109,8 +109,7 @@ public class FormManager : MonoBehaviour
 
         if (currentForm != null)
             Destroy(currentForm);
-        Camera.main.GetComponent<CameraTargetFollower>().UpdatePlayerReference(currentForm.transform);
-        NotifyEnemySpawnerAboutNewPlayer(currentForm);
+        
 
         StartCoroutine(InstantiateFormDelayed(IDForm, actualPos, actualRot));
 
@@ -141,7 +140,8 @@ public class FormManager : MonoBehaviour
 
         currentForm = Instantiate(FormPrefabs[IDForm], position, rotation);
         currentFormID = IDForm;
-
+        Camera.main.GetComponent<CameraTargetFollower>().UpdatePlayerReference(currentForm.transform);
+        NotifyEnemySpawnerAboutNewPlayer(currentForm);
         Debug.Log("Transformado a forma: " + FormPrefabs[IDForm].name);
     }
 

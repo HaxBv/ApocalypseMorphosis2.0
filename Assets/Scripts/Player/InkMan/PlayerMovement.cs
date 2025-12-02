@@ -1,5 +1,7 @@
 using System;
+using Unity.VisualScripting.Antlr3.Runtime.Misc;
 using UnityEngine;
+using UnityEngine.Windows;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -22,6 +24,10 @@ public class PlayerMovement : MonoBehaviour
         
     }
 
+    public void MovementMechanics()
+    {
+        rb.linearVelocity =;
+    }
     
 
 }

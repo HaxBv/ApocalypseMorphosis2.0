@@ -5,6 +5,11 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
 
+    public FormManager formManager;
+    public StatsManager statsManager;
+
+
+
 
     [Header("LEVEL SETTINGS")]
     private int MaxLevel;
