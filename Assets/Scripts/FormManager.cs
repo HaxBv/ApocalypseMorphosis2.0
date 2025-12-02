@@ -109,10 +109,28 @@ public class FormManager : MonoBehaviour
 
         if (currentForm != null)
             Destroy(currentForm);
-
+        Camera.main.GetComponent<CameraTargetFollower>().UpdatePlayerReference(currentForm.transform);
+        NotifyEnemySpawnerAboutNewPlayer(currentForm);
 
         StartCoroutine(InstantiateFormDelayed(IDForm, actualPos, actualRot));
 
+    }
+    private void NotifyEnemySpawnerAboutNewPlayer(GameObject newPlayer)
+    {
+        EnemySpawner[] spawners = FindObjectsByType<EnemySpawner>(
+            FindObjectsInactive.Include,
+            FindObjectsSortMode.None
+
+
+        );
+
+        foreach (var spawner in spawners)
+        {
+            spawner.UpdatePlayerReference(newPlayer.transform);
+
+        }
+
+        Debug.Log("EnemySpawner actualizado con el nuevo Player");
     }
 
     private IEnumerator InstantiateFormDelayed(int IDForm, Vector3 position, Quaternion rotation)

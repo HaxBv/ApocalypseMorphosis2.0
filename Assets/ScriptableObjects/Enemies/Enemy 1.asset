@@ -15,8 +15,8 @@ MonoBehaviour:
   EnemyName: Ink Monster
   ID: 1
   disaster: 1
-  Health: 0
-  Damage: 0
-  Speed: 0
-  SpawnRate: 0
-  prefab: {fileID: 0}
+  Health: 100
+  Damage: 10
+  Speed: 2
+  SpawnRate: 3
+  prefab: {fileID: 2837646923148947172, guid: ee1db7c0065bbe84794633560e4ea94b, type: 3}

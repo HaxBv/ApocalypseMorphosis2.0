@@ -15,8 +15,8 @@ MonoBehaviour:
   EnemyName: Ink Flying Monster
   ID: 2
   disaster: 1
-  Health: 0
-  Damage: 0
-  Speed: 0
-  SpawnRate: 0
-  prefab: {fileID: 0}
+  Health: 80
+  Damage: 20
+  Speed: 3
+  SpawnRate: 5
+  prefab: {fileID: 6183200804236481229, guid: 6f187c0b97d06df45bab94c021cd1f10, type: 3}
