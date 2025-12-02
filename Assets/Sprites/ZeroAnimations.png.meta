@@ -1,0 +1,356 @@
+fileFormatVersion: 2
+guid: 3ede2ef9eb8a93443b1714db633e54d6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9708503044138109
+    second: ZeroAnimations_0
+  - first:
+      213: -7636802265128187992
+    second: ZeroAnimations_1
+  - first:
+      213: -8043885069827664872
+    second: ZeroAnimations_2
+  - first:
+      213: 6868365616702433450
+    second: ZeroAnimations_3
+  - first:
+      213: 6374750654979561229
+    second: ZeroAnimations_4
+  - first:
+      213: -3107201333542678517
+    second: ZeroAnimations_5
+  - first:
+      213: 3529390180451397062
+    second: ZeroAnimations_6
+  - first:
+      213: -6602800779024511899
+    second: ZeroAnimations_7
+  - first:
+      213: -6911667663454064138
+    second: ZeroAnimations_8
+  - first:
+      213: -3262544335141238595
+    second: ZeroAnimations_9
+  - first:
+      213: 7108382933875570684
+    second: ZeroAnimations_10
+  - first:
+      213: -7010485630061193016
+    second: ZeroAnimations_11
+  - first:
+      213: -7167325872372460323
+    second: ZeroAnimations_12
+  - first:
+      213: -1524594670570369250
+    second: ZeroAnimations_13
+  - first:
+      213: -1907704843487490107
+    second: ZeroAnimations_14
+  - first:
+      213: -6090956702334811541
+    second: ZeroAnimations_15
+  - first:
+      213: -6167826453171931576
+    second: ZeroAnimations_16
+  - first:
+      213: -3248285699858636239
+    second: ZeroAnimations_17
+  - first:
+      213: 2802173231924548359
+    second: ZeroAnimations_18
+  - first:
+      213: -8662020866931267070
+    second: ZeroAnimations_19
+  - first:
+      213: -230504405639082912
+    second: ZeroAnimations_20
+  - first:
+      213: -8060400827064422828
+    second: ZeroAnimations_21
+  - first:
+      213: 8199594674541163765
+    second: ZeroAnimations_22
+  - first:
+      213: -1253433935490142025
+    second: ZeroAnimations_23
+  - first:
+      213: 8497995105091842016
+    second: ZeroAnimations_24
+  - first:
+      213: 1662414670721897464
+    second: ZeroAnimations_25
+  - first:
+      213: -476432504099396795
+    second: ZeroAnimations_26
+  - first:
+      213: -6831401948634735981
+    second: ZeroAnimations_27
+  - first:
+      213: 6675613258380985918
+    second: ZeroAnimations_28
+  - first:
+      213: 2500262411319252944
+    second: ZeroAnimations_29
+  - first:
+      213: 2664548491597840753
+    second: ZeroAnimations_30
+  - first:
+      213: -1083077887237909216
+    second: ZeroAnimations_31
+  - first:
+      213: -8993531088869314505
+    second: ZeroAnimations_32
+  - first:
+      213: -4518926518347775491
+    second: ZeroAnimations_33
+  - first:
+      213: -4998005979643167795
+    second: ZeroAnimations_34
+  - first:
+      213: -2624823786336743555
+    second: ZeroAnimations_35
+  - first:
+      213: 9107534591726194252
+    second: ZeroAnimations_36
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ZeroAnimations_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d742f3305dd722000800000000000000
+      internalID: 9708503044138109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZeroAnimations_1
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a7c2272dc0a40690800000000000000
+      internalID: -7636802265128187992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZeroAnimations_2
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8149ad6b5216e5090800000000000000
+      internalID: -8043885069827664872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZeroAnimations_3
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa82e036326515f50800000000000000
+      internalID: 6868365616702433450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZeroAnimations_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d07deb122f9a77850800000000000000
+      internalID: 6374750654979561229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6dfd3073a0700424c92a854abcd208e2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ZeroAnimations_0: 9708503044138109
+      ZeroAnimations_1: -7636802265128187992
+      ZeroAnimations_2: -8043885069827664872
+      ZeroAnimations_3: 6868365616702433450
+      ZeroAnimations_4: 6374750654979561229
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
